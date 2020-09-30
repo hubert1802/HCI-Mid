@@ -1,0 +1,211 @@
+<style>
+    *{
+        margin: 0px;
+    }
+    #whiteheader{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.45cm;
+    }
+    
+    #whitenaration{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.4cm;
+    }
+    #title{
+        margin-top: 1cm;
+        margin-bottom: 0.5cm;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        font-size: 1cm;
+    }
+    .header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+        height: 1cm;
+        width: 40cm;
+    }
+    .header > div,a{
+       margin-top: 0.2cm;
+       margin-bottom: 0.2cm;
+       margin-left: 0.3cm;
+       margin-right: 0.3cm;
+    }
+    .content1{
+        margin-top: 1cm;
+        display: flex;
+        flex-direction: row;
+        width: 40cm;
+        height: 10cm;
+        justify-content: center;
+        background-color: white;
+    }
+    .content1-2{
+        margin-left: 2cm;
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        border-radius: 12px;
+        width: 20cm;
+        height: 10cm;
+
+    }
+    .content1-2 > a,div{
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
+
+    .buttonOurCatalogue{
+        margin-left: 60%;
+        margin-right: 20%;
+        margin-top: 3%;
+        font-size: 0.4cm;
+        background-color: white;
+        padding: 1%;
+        text-align: center;
+        cursor: pointer;
+        border-radius: 12px;
+    }
+
+    .content2{
+        background-color:;
+        display: flex;
+        flex-direction: row;
+        width: 40cm;
+        height: 15cm;
+       align-content: center;
+        margin-top: 1cm;
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
+    .content2 > div,a{
+        margin-left: 1.5cm;
+        margin-right: 1.5cm;
+    }
+ 
+    .content2-child{
+        display: flex;
+        flex-direction: column;
+        background-color: #f9f9f9;
+        height: 13cm;
+        width: 10cm;
+        box-shadow: 5px 10px #888888;
+        text-align: center;
+    }
+
+    #boldcontent{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 0.5cm;
+    }
+
+    .buttonShopNow{
+        margin-left: 33%;
+        margin-right: 33%;
+        margin-top: 4%;
+        font-size: 0.4cm;
+        color: white;
+        background-color: black;
+        padding: 2%;
+        text-align: center;
+        cursor: pointer;
+    }
+    .content3{
+        background:url(assets/Banner.jpg);
+        background-size: 40cm 20cm;  
+        display: flex;
+        flex-direction: column;
+        width: 40cm;
+        height: 20cm;
+        align-content: center;
+        margin-top: 1cm;
+    }
+    .content3 >div{
+        margin-top: 0.65cm;
+        text-align: center;
+        font-size: 1.5cm;
+        color: white;
+    }
+    #textinpic{
+        margin-top: 0.1cm;
+    }
+    #comingsoon{
+        margin-top: 12cm;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        background-color: #e6e6e6;
+        width: 40cm;
+        height: 2cm;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer >div,a,img{
+        margin-left: 2cm;
+    }
+   
+    .sosmedd{
+        display: flex;
+        flex-direction: row;
+        width: 5cm;
+        height: 1cm;
+    }
+    .sosmedd > a,img{
+        margin-left: 0.1cm;
+        margin-right: 0.1cm;
+        margin-top: 0.1cm;
+    }
+    #marginalignfooter{
+        margin-right: 1.8cm;
+    }
+   .tas{
+       width: 200;
+       height: 200;
+       position: relative;
+   }
+   .tas .tashover{
+       display: none;
+       position: absolute;
+       top: 0;
+       left: 0;
+       z-index: 99;
+   }
+   .tas:hover .tashover{
+       display: inline;
+   }
+   .contentJoin{
+       background-color: rgb(192, 192, 192);
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       text-align: center;
+       width: 40cm;
+       height: 10cm;
+   }
+   .contentJoin > form,input{
+        margin-top: 0.1cm;
+   }
+   .contentJoin > form,textarea{
+        margin-top: 0.2cm;
+    }
+    .contentJoin > form,select{
+        margin-top: 0.2cm;
+    }
+    .contentJoin > form,select{
+        margin-top: 0.2cm;
+    }
+    #smoothborder{
+        border-radius: 12px;
+        text-align: center;
+    }
+   #formm{
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+   }
+  
+</style>
